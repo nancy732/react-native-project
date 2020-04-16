@@ -40,9 +40,8 @@ export default function Signup() {
                     name="Confirm"
                     secureTextEntry={true}
                 />
-                <Icon name="eye" />
             </View>
-            <View >
+            <View style={{ flex: 2 }} >
                 <DragButton text="Create Account" />
             </View>
         </View>
@@ -76,10 +75,12 @@ const styles = StyleSheet.create({
         fontSize: 20
     },
     input: {
-        borderBottomColor: 'black',
-        fontSize: 13,
-        borderBottomWidth: 1,
+        borderColor: 'black',
+        borderRadius: 17,
+        fontSize: 15,
+        borderWidth: 1,
         width: '100%',
-        paddingHorizontal: 2
+        paddingHorizontal: 10,
+        paddingVertical: 5
     }
 });

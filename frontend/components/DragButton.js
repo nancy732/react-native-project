@@ -9,7 +9,7 @@ import {
 } from 'react-native';
 import PropTypes from 'prop-types';
 
-import Images from '../assets/index';
+import Images from '../../assets/index';
 
 const DragButton = props => {
     const [position, setPosition] = useState(new Animated.Value(0));
